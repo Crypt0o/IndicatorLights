@@ -8,7 +8,8 @@
 #ifndef IL_H_
 #define IL_H_
 	enum States {
-		LANECHANGE = 1,
+		OFF,
+		LANECHANGE,
 		NORMAL,
 		HAZARD
 	};
